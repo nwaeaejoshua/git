@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+.header .nav{
+    display: flex;
+    background-color: rgb(31, 59, 31);
+    align-items: center;
+    justify-content: space-around;
+}
+.header .nav .logo{
+    width: 5px;
+}
+.nav .link{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.header .nav .link a{
+    text-decoration: none;
+    color: white;
+}
+.header .nav .buttom{
+    color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 8px;
+}  
+.header .nav .buttom img{
+    width: 18px;
+    height: 20px;
+}
